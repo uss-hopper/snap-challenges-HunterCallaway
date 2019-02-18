@@ -1,0 +1,14 @@
+/*
+snap-reduce
+[1,2,3,5,8,13,21,34]
+
+using reduce multiple the array
+
+expected value = 2227680
+*/
+
+const numArray = [1,2,3,5,8,13,21,34]
+
+const numMultiplier = numArray.reduce((accumulator, currentValue) => accumulator * currentValue);
+
+console.log(numMultiplier);
